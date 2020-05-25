@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .inputs_block {
+            margin: 50px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+        }
+        input {
+            margin-bottom: 10px;
+        }
+        .input-phone-number{
+            width: 80%;
+            margin-right: 2%;
+        }
+        .add_phone{
+            width: 15%;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="inputs_block">
+            <input class="input-name" type="text" placeholder="first name">
+            <input class="input-second-name" type="text" placeholder="last name">
+            <div class = "numbers">
+                <input class="input-phone-number" type="number" placeholder="phone number">
+                <button class="add_phone" type="button">+</button>
+            </div>
+            <input class="input-comment" type="text" placeholder="comment">
+            <button type="submit">AddUser</button>
+        </div>
+    </form>
+    <script src="./js/code.js"></script>
+</body>
+</html>
